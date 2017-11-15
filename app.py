@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.logger.addHandler(logging.StreamHandler(sys.stdout))
 app.logger.setLevel(logging.ERROR)
 app.config['PROPAGATE_EXCEPTIONS'] = True
-app.config['TEMP_FOLDER'] = '/tmp'
+app.config['TEMP_FOLDER'] = '/temp'
 app.config['OCR_OUTPUT_FILE'] = 'ocr'
 app.config['MAX_CONTENT_LENGTH'] = 4 * 1024 * 1024
 
