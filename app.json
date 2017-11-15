@@ -5,14 +5,14 @@
     "Tesseract",
     "OCR"
   ],
-  "logo": "https://small-sharp-tool.com/logo.svg",
+  "logo": "https://avatars3.githubusercontent.com/u/29545867?s=460&v=4",
   "success_url": "/test",
   "buildpacks": [
     {
       "url": "heroku/python"
     },
     {
-      "url": "https://github.com/matteotiziano/heroku-buildpack-tesseract"
+      "url": "https://github.com/aiwizards/heroku-buildpack-tesseract"
     }
   ]
 }
