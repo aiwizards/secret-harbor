@@ -30,7 +30,7 @@ def not_found(error):
 def api_root():
   resp = jsonify( { 
     u'status': 200, 
-    u'message': u'Welcome to our secret APIs' 
+    u'message': u'Welcome to aiwizards APIs' 
   } )
   resp.status_code = 200
   return resp
